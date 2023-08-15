@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Каталог</title>
+</head>
+<body>
+    <div class="body-wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <h3 class="about__top-title">
+                        Познакомьтесь с акциями этого месяца от MAYA
+                    </h3>
+                </div>
+                <div class="header__inner">
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__img" src="images/gray-logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="about__item-link" href="about.html">О нас</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="about__item-link" href="#">Каталог</a>
+                            </li>
+                            <li class="menu__item">
+                                <a class="about__item-link" href="delivery.html">Доставка</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="menu__list-right">
+                        <a class="menu__link-img" href="#">
+                            <img class="phone-gray" src="images/ikon/gray-phone.svg" alt="phone">
+                        </a>
+                        <a class="about__link-right" href="#">
+                            8 (800) 233-44-55
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="main-catalog">
+                <div class="container">
+                    <div class="main-catalog__inner">
+                        <h3 class="main-catalog__title">
+                            каталог
+                        </h3>
+                        <div class="main-catalog__item">
+                            <div class="main-catalog__input">
+                                <form class="form" action="#">
+                                    <input class="form__text-input" type="text" placeholder="Поиск">
+                                    <a class="form__link" href="#">
+                                        <img class="search" src="images/ikon/search.svg" alt="search">
+                                    </a>
+                                </form>
+                                <form class="form" action="#">
+                                    <input class="form__text-input" type="text" placeholder="Сортировать по цене">
+                                    <a class="form__link" href="#">
+                                        <img class="sorting" src="images/ikon/sorting.svg" alt="sorting">
+                                    </a>
+                                </form>
+                            </div>
+                            <div class="catalog-card">
+                                <ul class="catalog-card__list">
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                    <li class="catalog-item__list">
+                                        <img class="main-catalog__item-img" src="images/img/catalog-img.png" alt="catalog-img">
+                                        <h3 class="catalog-card__title">Заголовок</h3>
+                                        <p class="catalog-card__text">3000₽</p>
+                                        <button class="catalog-card__btn">подробнее</button>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-catalog__card-item">
+                        <div class="main-catalog__descr">
+                            <a class="main-catalog__descr-link" href="#">Бандажи</a>
+                            <a class="main-catalog__descr-link" href="#">Бюстгалтеры</a>
+                            <a class="main-catalog__descr-link" href="#">Трусики</a>
+                        </div>
+                        <div class="main-slider">
+                            <div class="main-slider__item">
+                                <h3 class="main-slider__title">Цена</h3>
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                            </div>
+                            <div class="main-slider__list">
+                                <a class="main-slider__link">От</a>
+                                <span class="main-slider__span"></span>
+                                <a class="main-slider__link">До</a>
+                            </div>
+                        </div>
+                            <div class="main-checkbox">
+                                <h3 class="main-checkbox__title">Размер</h3>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">xs</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">s</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">m</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">l</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">xl</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">xxl</span>
+                                </label>
+                                <label class="label">
+                                    <input class="checkbox" type="checkbox">
+                                    <span class="fake"></span>
+                                    <span class="main-checkbox__text">xxxl</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </main>
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                <h1 class="footer__title">
+                    Следите за нашими новинками
+                </h1>
+            </div>
+            <div class="footer__inner">
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">Каталог</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">Доставка</a>
+                    </li>
+                    <li class="footer__item">
+                        <a class="footer__item-link" href="#">Оплата</a>
+                    </li>
+                </ul>
+                <ul class="footer__card">
+                    <li class="footer__card-item">
+                        <a class="footer__card-link" href="#">
+                            <img class="instagram" src="images/ikon/instagram.svg" alt="instagram">
+                        </a>
+                    </li>
+                    <li class="footer__card-item">
+                        <a class="footer__card-link" href="#">
+                            <img class="yputube" src="images/ikon/youtube.svg" alt="youtube">
+                        </a>
+                    </li>
+                    <li class="footer__card-item">
+                        <a class="footer__card-link" href="#">
+                            <img class="telegram" src="images/ikon/telegram.svg" alt="telegram">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p class="footer__text-email">
+                Оставьте адрес своей электронной почты
+            </p>
+            <div class="footer__btn">
+                <a class="footer__btn-link" href="mailto:Ivanovivan@mail.ru">
+                    Ivanovivan@mail.ru
+                </a>
+                <a class="footer__btn-email" href="#">
+                    Получать новости на email
+                </a>
+            </div>
+        </div>
+        <div class="footer__copy">
+            <ul class="footer__copy-list">
+                <li class="footer__item-copy">
+                    <p class="footer__text-copy">ИНН 458475835656</p>
+                    <span class="footer__copy-span">ОГРН 34894589345</span>
+                </li>
+                <li class="footer__item-copy">
+                    <h3 class="footer__title-copy">Maya store (C) 2021 Все права защищены</h3>
+                </li>
+                <li class="footer__item-copy">
+                    <a class="footer__text-copy" href="tel:88002334455">
+                        8 (800) 233-44-55
+                    </a>
+                    <span class="footer__copy-span">
+                        Политика конфиденциальности
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="js/accordion.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
