@@ -1,0 +1,32 @@
+@import "vars";
+@import "font";
+
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+  
+img {
+    max-width: 100%;
+}
+
+body {
+    @extend %Montserrat-Regular;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: normal;
+}
+
+.global__title {
+    @extend %Montserrat-Regular;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 115px;
+    text-align: center;
+    color: $title;
+}
