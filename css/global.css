@@ -1,0 +1,74 @@
+.global__title, body {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Montserrat-Light";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../font/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: "Montserrat-LightItalic";
+  font-weight: 300;
+  font-style: normal;
+  src: url("../font/Montserrat-LightItalic.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Italic";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/Montserrat-Italic.ttf");
+}
+@font-face {
+  font-family: "Optima Cyr";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../font/ofont.ru_Optima Cyr.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../font/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  font-weight: 600;
+  font-style: normal;
+  src: url("../font/Montserrat-SemiBold.ttf");
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: normal;
+}
+
+.global__title {
+  font-size: 40px;
+  text-transform: uppercase;
+  margin-bottom: 115px;
+  text-align: center;
+  color: #4D4D4D;
+}/*# sourceMappingURL=global.css.map */
